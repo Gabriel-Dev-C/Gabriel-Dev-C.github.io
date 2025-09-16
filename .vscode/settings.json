@@ -1,0 +1,5 @@
+{
+    "ruby.interpreter": "C:/Ruby34-x64/bin/ruby.exe",
+    "ruby.format": "rubocop",
+    "editor.formatOnSave": true
+}
