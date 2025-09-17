@@ -9,9 +9,16 @@ linkedin_username: Gabriel C. Martins
 github_username: Gabriel-Dev-C
 
 # Build settings
-theme: jekyll-theme-architect
+remote_theme: pages-themes/architect@v0.2.0  # ← linha nova
+theme: jekyll-theme-architect  # ← Mantém esta também ou remove
+
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
+
+# Forçar a inclusão do head customizado
+include:
+  - _includes/custom-head.html
 
 # Configurações adicionais recomendadas
 # author:
