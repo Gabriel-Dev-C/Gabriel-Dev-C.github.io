@@ -1,55 +1,30 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+title: Gabriel's Portfolio
+email: gacmartins@gmail.com
+description: >-
+  Neste site você encontrará meus projetos pessoais, habilidades práticas e informações de contato.
+  <br>Sinta-se à vontade para explorar e conectar-se comigo, desde já agradeço a atenção!
+baseurl: "" # Deixe vazio para GitHub Pages
+url: "https://gabriel-dev-c.github.io" # Seu URL do GitHub Pages
+linkedin_username: Gabriel C. Martins
+github_username: Gabriel-Dev-C
 
 # Build settings
-theme: minima
+theme: jekyll-theme-architect
 plugins:
   - jekyll-feed
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# Configurações adicionais recomendadas
+# author:
+  # name: Gabriel Chabaribery Martins
+  # email: gacmartins@gmail.com
+
+name: Gabriel Chabaribery Martins
+location: São Paulo, Brasil
+email: gacmartins@gmail.com
+
+# Social media (opcional)
+twitter_username: # seu usuário do Twitter (se tiver)
+instagram_username: # seu usuário do Instagram (se tiver)
+
+# Configurações de exibição
+show_excerpts: true # Mostrar trechos dos posts na homepage
